@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    color: #330000;
+}
+
+section {
+    padding: 1%, 0;
+}
+div.wrapper {
+    padding: 1%, 0;
+}
+div.content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+    overflow: hidden;
+}
+/* настройка шапки сайта */
+header .content{
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+header .wrapper {
+    background-color: #f7e8e3;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.content .logo img {
+    height: 75px;
+}
+
+.content nav {
+    color: #333;
+    font-size: 16pt;
+}
+
+.content nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* настройка блока алгоритм */
+section.alg .content{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+.alg {
+    background-color: #04323a;
+}
+h1{
+    font-size: 32pt;
+    color: #fff;
+}
+section.alg div.steps{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+section.alg div.step{
+    font-size: 12px;
+    background-color: #d1dcde;
+    width: 15%;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* настройка блока о компании */
+section.about .content{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+div.comment{
+    width: 33%;
+    float: left;
+    padding: 2%;
+}
+div.comment img.comment_foto{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+div.comment div.comment div.comment_text{
+    padding: 2%;
+}
+/* настройка блока поиск */
+section.search .content{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+section.search{
+    background-color: #573625;
+}
+select, input{
+    width: 100%;
+    height: 50px;
+    margin-top: 1%;
+    padding: 1%;
+    font-size: 16pt;
+}
+button {
+    width: 100%;
+}
+/* настройка блока акции */
+section.promos .content{
+    margin: 0 auto;
+    max-width: 900px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+section.promos{
+    background-color: #d1dcde;
+}
+section.promos .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.promo{
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+    border: 2px solid #04323a;
+    border-radius: 5px
+}
+button{
+    margin-top: 10pt;
+    height: 40pt;
+    font-size: 18px;
+    font-weight: bold;
+}
+div.promo img{
+    width: 100%;
+    margin: 0 auto;
+}
+div.promo h2{
+padding-bottom: 10px;
+padding-top: 25px;
+}
+/* настройка блока поиск */
+select, input, button{
+    width: 100%;
+}
+/* настройка блока подписка */
+section.sub .content{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+section.sub{
+    background-color: #04323a;
+}
+/* настройка блока подвал */
+footer .content{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+footer{
+    background-color: #f7e8e3;
+}
+footer h2{
+    font-size: 32pt;
+}
+footer nav{
+    padding-top: 20px;
+}
+/* Оформление страницы Результаты поиска */
+h1 {
+    text-align: center;
+}
+section img{
+        margin: 0 auto;
+        padding-top: 2%;
+        padding-bottom: 3%;
+}
+div.link{
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+div.wrapper h1{
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 3%; 
+}
+.content img{
+    width: 80%;
+    margin: 0 auto;
+}
+.content .link{
+    width: 80%;
+    margin: 0 auto;
+}
+section.booking{
+    background-color: #04323a;
+}
+.booking .content p{
+    padding-top: 2%;
+}
+.info, .dop, .other{
+    background-color: c0c0c0;
+    padding: 3%;
+    margin: 3%;
+    overflow: hidden;
+}
+div.promos h2{
+    text-align: center;
+}
+ul{
+    list-style-position: inside;
+    padding-left: 1%;
+}
+.dop input[type=checkbox]{
+    height: 30px;
+}
+.dop_check{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+select, input, button, textarea{
+    width: 100%;
+    height: 50px;
+    margin-top: 1%;
+    padding: 1%;
+    font-size: 16pt;
+}
+section.promos .info, .dop{
+    text-align: center;
+}
+div.info p, li{
+    text-align: left;
+}
+div.info, .dop, .other{
+    background-color: rgba(255, 253, 253, 0.7);
+}
+.other textarea{
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.booking .wrapper .content{
+    display: contents;
+    width: 80%;
+}
+section.alg div.steps {
+    margin-top: 3%;
+    overflow: hidden;
+    position: relative;
+}
+section.alg div.step{
+    font-size: 18pt;
+    background-color: #d1dcde;
+    padding: 10px 20px;
+    border-radius: 20px;
+    animation: round 18s infinite;
+    opacity: 0;
+    width: 230px;
+    height: 7%;
+    position: relative;
+}
+@keyframes round{
+    12.5% {opacity: 1;}
+    25% {opacity: 0;}
+}
+div.steps div:nth-child(6) {animation-delay: 15s;}
+div.steps div:nth-child(5) {animation-delay: 12s;}
+div.steps div:nth-child(4) {animation-delay: 9s;}
+div.steps div:nth-child(3) {animation-delay: 6s;}
+div.steps div:nth-child(2) {animation-delay: 3s;}
+div.steps div:nth-child(1) {animation-delay: 0s;}
+/* Баннер */
+section.banner {
+    min-height: 80vh;
+    background-image: url("../media/image/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section.banner div.wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    min-height: 90vh;
+    margin-left: 2%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+section.banner div.wrapper h1{
+    font-size: 8em;
+    color: #04323a;
+    font-weight: bold;
+}
